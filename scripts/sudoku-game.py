@@ -20,10 +20,10 @@ def check_sudoku(square):
             check_list.remove(row[n])
     return True
 
-print(check_sudoku([[1,2,3],
-                    [2,3,1],
-                    [3,1,2]]))
-print(check_sudoku([[1,2,3,4],
-                    [2,3,1,3],
-                    [3,1,2,3],
-                    [4,4,4,4]]))
+print(check_sudoku([[1, 2, 3],
+                    [2, 3, 1],
+                    [3, 1, 2]]))
+print(check_sudoku([[1, 2, 3, 4],
+                    [2, 3, 1, 3],
+                    [3, 1, 2, 3],
+                    [4, 4, 4, 4]]))
